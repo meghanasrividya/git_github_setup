@@ -2,7 +2,7 @@
 - Python is a popular programming language.
 - Python can be used on a server to create web applications.
 ## Why Python
-- ![img_1.png](img_1.png)
+![img_1.png](img_1.png)
 ### Python use cases
 - web development
 - DevOps
