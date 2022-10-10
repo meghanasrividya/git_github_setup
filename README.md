@@ -1,29 +1,24 @@
 # Python intro
+- Python is a popular programming language.
+- Python can be used on a server to create web applications.
 ## Why Python
+- ![img_1.png](img_1.png)
 ### Python use cases
-#### Python set up with Pycharm
-##### Python variables
-- Env Testing`print(""hello world)`
+- web development
+- DevOps
+- data science
+- data analysis
+- machine learning
+- finance industry
+### Python variables
+- Variables are containers for storing data values.
+- Python has no command for declaring a variable.
+- A variable is created the moment you first assign a value to it.
+### Example program to take input from the user and print to console.
 ```python
-first_name=input("Enter your first_name")
-last_name=input("Enter your last_name")
-dob=input("Please , enter your DOB:")
-course_name=input("Please, Enter your course name :")
-uk_resident =input ("Are you a resident of UK ?")
-print(first_name + last_name )
-print(dob)
-print(course_name)
-print(uk_resident)
-```
-# Python Variable?
-- To store user data-hard code the data- any other data
-```python
-first_name="Meghana"# - this is String
-last_name = "Aenugu"
-DOB =99 #-Int
-travel=14.4 #-float
-salary = 40000 #-int
-gross_salary = "salary+ travel"
+# Get user first_name and last_name
+first_name=input("Enter your first_name") # Takes the input from the user and stores in the variable first_name
+last_name=input("Enter your last_name") # Takes the input from the user and stores in the variable last_name
 
 # display the names in the line
 print(first_name + last_name )
@@ -35,11 +30,9 @@ print(course_name)
 # UK_resident
 uk_resident =input ("Are you a resident of UK ?")
 print(uk_resident)
- 
-
-# 
-
 ```
+### Output the console is 
+![img_2.png](img_2.png)
 
 # How to setup git+github using SSH key pair
 - Install Git in your local machine
