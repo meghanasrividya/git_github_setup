@@ -16,7 +16,7 @@ print(course_name)
 print(uk_resident)
 ```
 ```python
-#Python Variable?
+# Python Variable?
 # To store user data-hard code the data- any other data
 
 first_name="Meghana"# - this is String
@@ -61,3 +61,5 @@ print(course_name)
 # UK_resident
 uk_resident =input ("Are you a resident of UK ?")
 print(uk_resident)
+ 
+
