@@ -51,6 +51,7 @@ print(uk_resident)
 - Step 2 :Keep the private key on local host inside the .ssh folder
 - Step 3 :Copy the public key into your repository on github
 - After doing the above three steps we can push anything to Github from our local machine and we can clone anything from Github to pur local machine.
+![img.png](img.png)
 ## Points to be noted
 - Always open Pycharm as administrator.
 - Make sure you copy the public key without spaces and paste into repository
