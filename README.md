@@ -41,8 +41,22 @@ print(uk_resident)
     - SSH (Secure Shell)
     - HTTPS
 - Step 1 :Generate ssh keys on localhost
+-  - Open git bash terminal
+        - Go to .ssh directory using the command cd ~/.ssh 
+        - If the .ssh directory does not exist , create it using the command mkdir .ssh
+        - Now go to the directory using the command cd ~/.ssh
+        - To generate the key use the command ssh-keygen -t rsa -b 4096 -C "your@email.com"
+        - It will ask to enter the file to save the key.Don't give any file name, just click enter and enter
+        - Give command  ls to list the files in .ssh
+        - We will have key-pair (2 files) id_rsa ,id_rsa.pub. 
+           - One with .pub extension is public key
+           - One without .pub extension is called private key
 - Step 2 :Keep the private key on local host inside the .ssh folder
 - Step 3 :Copy the public key into your repository on github
+     - Use the command cat id_rsa.pub to open the public key file.
+          - Once opened,copy the contents of the file 
+          - Go to the Github account settings--> SSH and GPG Keys-->Click on New SSH Key-->Give some title and paste the key and click on "Add SSH Key".
+          - It will ask the passwork to confirm 
 - After doing the above three steps we can push anything to Github from our local machine and we can clone anything from Github to pur local machine.
 ![img.png](img.png)
 ## Points to be noted
