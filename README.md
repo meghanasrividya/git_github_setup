@@ -31,7 +31,7 @@ print(course_name)
 uk_resident =input ("Are you a resident of UK ?")
 print(uk_resident)
 ```
-### Output the console is 
+### Output of the console is 
 ![img_2.png](img_2.png)
 ### Python Comments
 - Comments can be used to explain Python code.
@@ -56,7 +56,7 @@ print(uk_resident)
     - SSH (Secure Shell)
     - HTTPS
 - Step 1 :Generate ssh keys on localhost
--  - Open git bash terminal
+    - Open git bash terminal
         - Go to .ssh directory using the command cd ~/.ssh 
         - If the .ssh directory does not exist , create it using the command mkdir .ssh
         - Now go to the directory using the command cd ~/.ssh
