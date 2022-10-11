@@ -95,7 +95,26 @@ print(uk_resident)
 - now let's send this new data to github
 - `git push -u origin main`
 - `git status`
-<<<<<<< HEAD
+
 - git add `.gitignore` then add all dependencies that you do not want to push
 ### This change is done on Github
 
+### Introduction of Data Types and Operators
+- `+ - * /`
+##### Comparison Operators
+- `>` greater than
+- `<` less than
+- `==` True or False
+- `>=` Greater than or equal
+- `<=` Less than or equal
+```python
+a=24
+b=16
+print(a+b)# outcome added value of a & b
+print(a-b)# outcome subtraction of b from a
+user_age=18
+# comparison
+print(a>b)# outcome be True
+print(a<b)# outcome be False
+print(a==b)
+```
