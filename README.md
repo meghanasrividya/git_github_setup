@@ -88,3 +88,10 @@ print(uk_resident)
 - git branch -M main
 - git remote add origin git@github.com:meghanasrividya/git_github_setup.git
 - git push -u origin main
+### Git and GitHUb
+- add changes to our Git -Hub repo - the changes we made on localhost
+-  `git add filename` or `git add .`
+-  `git commit -m "new markdown  guide added"`
+- now let's send this new data to github
+- `git push -u origin main`
+- `git status`
