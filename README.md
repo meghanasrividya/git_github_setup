@@ -160,11 +160,11 @@ print(a==b)
 # - DRY do not repeat yoyrself print("")
 greeting ="Hello World!"
 print(greeting)
-print(greeting.isalpha())
-print(greeting.islower())
-print(greeting.startswith("H"))
+print(greeting.isalpha())# This method checks whether there are only alphabets in the string
+print(greeting.islower())# This method checks whether there are only lower case alphabets in the string
+print(greeting.startswith("H"))# This method checks whtehr the string starts with "H"
 print(greeting.endswith("!")) # checks if it ends with letter
-print(greeting.isdigit())
+print(greeting.isdigit())# This method checks whether there are only digit in the string
 
 ```
 ```python
@@ -180,10 +180,10 @@ print(len(white_space.strip()))
 ```
 ```python
 Example_text ="here's is sOme text with loT's of text"
-print(Example_text.count("text"))
+print(Example_text.count("text"))# This method counts the word that taken as argument in the string
 print(Example_text)
-print(Example_text.lower())
-print(Example_text.upper())
-print(Example_text.capitalize())
-print(Example_text.replace("with",","))
+print(Example_text.lower())# This method converts the string to lower case alphabets
+print(Example_text.upper())# This method converts the string to upper case alphabets
+print(Example_text.capitalize())# This method capitalise the first letter of each word in the string
+print(Example_text.replace("with",","))# This method uses to replace particular word with other word which is given as argument in the string
 ```
