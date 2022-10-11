@@ -97,6 +97,5 @@ print(uk_resident)
 - `git status`
 <<<<<<< HEAD
 - git add `.gitignore` then add all dependencies that you do not want to push
-=======
 ### This change is done on Github
->>>>>>> refs/remotes/origin/main
+
