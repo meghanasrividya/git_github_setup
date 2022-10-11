@@ -95,4 +95,8 @@ print(uk_resident)
 - now let's send this new data to github
 - `git push -u origin main`
 - `git status`
+<<<<<<< HEAD
 - git add `.gitignore` then add all dependencies that you do not want to push
+=======
+### This change is done on Github
+>>>>>>> refs/remotes/origin/main
