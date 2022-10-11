@@ -33,7 +33,22 @@ print(uk_resident)
 ```
 ### Output the console is 
 ![img_2.png](img_2.png)
-
+### Python Comments
+- Comments can be used to explain Python code.
+- Comments can be used to make the code more readable.
+### Python Data Types
+- Built-in Data Types
+- In programming, data type is an important concept.
+- Variables can store data of different types, and different types can do different things.
+- Python has the following data types built-in by default, in these categories:
+  - Text Type:	str
+  - Numeric Types:	int, float, complex
+  - Sequence Types:	list, tuple, range
+  - Mapping Type:	dict
+  - Set Types:	set, frozenset
+  - Boolean Type:	bool
+  - Binary Types:	bytes, bytearray, memoryview
+  
 # How to setup git+github using SSH key pair
 - Install Git in your local machine
 - Create a github account 
