@@ -18,16 +18,18 @@ b=16
 # #strip() removes the white spaces at the end
 # print(len(white_space.strip()))
 
-Example_text ="here's is sOme text with loT's of text"
-print(Example_text.count("text"))
-print(Example_text)
-print(Example_text.lower())
-print(Example_text.upper())
-print(Example_text.capitalize())
-print(Example_text.replace("with",","))
+# Example_text ="here's is sOme text with loT's of text"
+# print(Example_text.count("text"))
+# print(Example_text)
+# print(Example_text.lower())
+# print(Example_text.upper())
+# print(Example_text.capitalize())
+# print(Example_text.replace("with",","))
+first_name ="Meghana"
+last_name="Aenugu"
+# user data input
 
-
-
+print(f"Hello {first_name} {last_name} ")
 
 
 
