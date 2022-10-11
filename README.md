@@ -155,3 +155,35 @@ print(a>b)# outcome be True
 print(a<b)# outcome be False
 print(a==b)
 ```
+```python
+# Boolean builtin methods in Python- Boolean Methods
+# - DRY do not repeat yoyrself print("")
+greeting ="Hello World!"
+print(greeting)
+print(greeting.isalpha())
+print(greeting.islower())
+print(greeting.startswith("H"))
+print(greeting.endswith("!")) # checks if it ends with letter
+print(greeting.isdigit())
+
+```
+```python
+greeting="Hello WOrld!"
+print(greeting[-12:-6])
+print(greeting[0:5])
+```
+```python
+white_space="lot's of spaces at the end               "
+print(len(white_space))
+#strip() removes the white spaces at the end
+print(len(white_space.strip()))
+```
+```python
+Example_text ="here's is sOme text with loT's of text"
+print(Example_text.count("text"))
+print(Example_text)
+print(Example_text.lower())
+print(Example_text.upper())
+print(Example_text.capitalize())
+print(Example_text.replace("with",","))
+```
