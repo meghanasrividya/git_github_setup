@@ -230,7 +230,9 @@ print("\n address: "+ address)
 print("\n hobbies: " +hobbies)
 
 ```
+### Data Collections
 ```python
+
 # Data Collections
 # Lists
 # Tuples
